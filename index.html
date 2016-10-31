@@ -4,20 +4,33 @@
 	</head>
   <style>
   
-    h1 {
+    h1, h2, p {
       font-family:arial,helvetica,sans-serif;
+    }
+    
+    h1 {
       font-size:36px;
     }
     
-    p {
-      font-family:arial,helvetica,sans-serif;
-      font-size:24px;
+    h2 {
+      font-size: 22px;
     }
     
-    li {
-      font-family:arial,helvetica,sans-serif;
-      font-size:17px;
-      margin-left: 25px;
+    p {
+      font-size:13px;
+    }
+    
+    a {
+      font-size:20px;
+      text-decoration: none;
+      color: darkgray;
+      background: lightgray;
+      margin-left: 30px;
+      border: 1px solid black;
+    }
+    
+    .entry {
+      background: #ffffcc;
       margin-top: 10px;
     }
   </style>
@@ -25,8 +38,25 @@
   
 	<p>This site is under construction</p>
   <hr>
-  <p>Perspective text</p>
-  <li><a href="perspective/tool.htm">RUN</a>
-  <li><img src="perspective/example.png">
+  <div class="entry">
+    <h2>Perspective text<h2>
+    <img src="perspective/example.png"><br>
+    
+    <a href="perspective/tool.htm">RUN</a>
+  </div>
+  
+  <div class="entry">
+    <h2>Reddit code syntax<h2>
+    <p>Uses bold italic and underline to make code beatiful</p>
+    <img src="http://lorempixel.com/400/200/"><br>
+    
+    <a href="perspective/tool.htm">RUN</a>
+  </div>
+  
+  <div class="entry">
+    <h2>Example tool<h2>
+    <img src="http://lorempixel.com/400/200/"><br>
+    <a href="perspective/tool.htm">RUN</a>
+  </div>
 	</body>
 </html>
