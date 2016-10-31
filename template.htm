@@ -11,7 +11,7 @@
 
   <script>
     function gen() {
-      var str = document.getElementById('inputtext');
+      var str = document.getElementById('inputtext').value;
       var res = str.replace(" ", "^"); 
       document.getElementById('outputtext').innerHTML = res; 
     }
